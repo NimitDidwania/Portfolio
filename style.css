@@ -6,11 +6,11 @@
 #navbar{
     display: flex;
     justify-content: space-around;
-    background-color: cadetblue;
-    
-    font-size: 15px;
+    background-color: whitesmoke	;
+    border-bottom: 2px solid orange;
+    font-size:20px;
     align-items: center;
-    color: white;
+    color: black;
     
 }
 #navbar ul {
@@ -19,6 +19,7 @@
 #navbar ul li {
     display: inline-block;
     margin: 2px;
+    font-size: 15px;
 }
 #menu{
     display:none;
@@ -27,17 +28,17 @@
     right: 3px;
 }
 .line{
-    width: 15px;
+    width: 17px;
     height: 2px;
-    background-color: white;
+    background-color: black;
     margin-top: 2px;
     margin-bottom: 2px;
 }
 #above-image{
-    height: 30vh;
+    height: 20vh;
     width: 100%;
-    background-color: #E4F1F7;
-    border: 2px solid green;
+    background-color: #F6EBD7;
+    
 }
 #pic{
     height: 22vh;
@@ -47,9 +48,12 @@
     display: block;
     margin: auto;
     border-radius: 99px;
-    box-shadow: 10px 10px 10px lightcyan;
+    /* box-shadow: 10px 10px 10px lightcyan; */
 }
-
+.center{
+    display: block;
+    margin: auto;
+}
 #ccImg{
     height: 6vh;
     width: 6vh;
@@ -58,11 +62,11 @@
 }
 .heading{
     text-align: center;
-    margin-bottom:10vh;
-    color: cadetblue;
-    border-bottom: 2px solid green;
+    padding: 3vh;
+    color: black;
+    border-bottom: 2px solid orange;
     /* border-top: 2px solid green; */ 
-    background-color: #E4F1F7;
+    /* background-color: ; */
 }
 .achDes{
     text-align: center;
@@ -71,14 +75,15 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    background-color:#F6EBD7;
 }
 .box{
     width: 20vw;
     border-radius: 15px;
-    border: 0.5px solid green;
-    background-color: #E4F1F7;
+    border: 0.5px solid orange;
+    background-color:white;
     padding: 12px;
-    margin-bottom: 4px;
+    margin:7vh;
 }
 .box p{
     margin:3vh ;
@@ -108,5 +113,7 @@
     .box{
         width: 70vw;
         margin: auto;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 }

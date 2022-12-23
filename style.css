@@ -88,6 +88,9 @@
 .box p{
     margin:3vh ;
 }
+.headCenter{
+    text-align: center;
+}
 @media all and (max-width:480px){
     #menu{
         display:block;

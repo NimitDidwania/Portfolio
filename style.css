@@ -80,12 +80,12 @@
     flex-wrap: wrap;
 }
 .box{
-    width: 20vw;
+    width: 30%;
     border-radius: 15px;
     border: 0.5px solid orange;
     background-color:white;
     padding: 12px;
-    margin:7vh;
+    /* margin:7vh; */
 }
 .box p{
     margin:3vh ;
@@ -93,7 +93,7 @@
 .headCenter{
     text-align: center;
 }
-@media all and (max-width:914px){
+@media all and (max-width:500px){
     #menu{
         display:block;
     }
@@ -112,12 +112,13 @@
     }
     .container{
         flex-direction: column;
-        
+        align-items: center;
         
     }
     .box{
         width: 70vw;
-        margin: auto;
+        /* margin: auto; */
+        
         margin-bottom: 4vh;
         margin-top: 4vh;
     }

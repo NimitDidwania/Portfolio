@@ -26,9 +26,6 @@
     margin: 2px;
     font-size: 15px;
 }
-a:hover{
-    text-shadow:2px 2px 2px orange;
-}
 #menu{
     display:none;
     position: absolute;
@@ -121,7 +118,6 @@ a:hover{
 
     }
     #navbar ul{
-        
         display: none;
         width: 100%;
     }

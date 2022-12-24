@@ -77,6 +77,7 @@
     justify-content: space-between;
     width: 100%;
     background-color:#F6EBD7;
+    flex-wrap: wrap;
 }
 .box{
     width: 20vw;

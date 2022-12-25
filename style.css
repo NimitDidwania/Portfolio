@@ -17,6 +17,8 @@ body{
     color: black;
     width: 100%;
     padding: 10px;
+    position: fixed;
+    z-index: 2;
 }
 #options  a{
     text-decoration: none;
@@ -44,13 +46,9 @@ body{
     margin-bottom: 2px;
 }
 #above-image{
-    height: 40vh;
-    width: 100%;
-    background-color: #F6EBD7;
-    background-image: url("photo.jpg");
-    object-fit: contain;
-
-    
+     height: 40vh;
+    width: 100%; 
+    background-color: #F8EFD6;
 }
 #pic{
     height: 22vh;
@@ -61,6 +59,7 @@ body{
     margin: auto;
     border-radius: 99px;
     /* box-shadow: 10px 10px 10px lightcyan; */
+    z-index: 1;
 }
 .center{
     display: block;

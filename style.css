@@ -3,6 +3,10 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    background-color: whitesmoke;
+}
 #navbar{
     display: flex;
     justify-content: space-around;
@@ -60,16 +64,19 @@
     margin: auto;
 }
 #ccImg{
-    height: 6vh;
-    width: 6vh;
+    
+    
     display: block;
+    width: 64px;
     margin: auto;
+    margin-top: 4px;
+    
 }
 .heading{
     text-align: center;
     padding: 3vh;
     color: black;
-    border-bottom: 2px solid orange;
+    /* border-bottom: 2px solid orange; */
     /* border-top: 2px solid green; */ 
     /* background-color: ; */
 }
@@ -80,7 +87,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    background-color:#F6EBD7;
+    /* background-color:#F6EBD7; */
     flex-wrap: wrap;
 }
 .box{
@@ -89,7 +96,7 @@
     border: 0.5px solid orange;
     background-color:white;
     margin: 5%;
-    
+    padding: 5px;
 }
 
 .box p{

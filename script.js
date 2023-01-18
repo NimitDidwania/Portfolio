@@ -8,5 +8,13 @@ function show(){
         document.querySelector("#options").style.display = "none";
     }
 }
-var x = window.matchMedia("(max-width: 500px)")
-myFunction(x)  
+var menu = document.getElementById("menu").style.display;
+function hide(){
+if(1){
+    console.log("THIS is->");
+    console.log(menu);
+    console.log("<-");
+    document.querySelector("#navbar ul").style.display = "none";
+    flag=flag^1;
+}
+}

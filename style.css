@@ -3,6 +3,25 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.box p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+strong{
+    color: orange;
+}
+#nd{
+    display: inline;
+    border: 1.5px solid orange;
+    padding: 6px;
+    border-radius: 50px;
+}
+#footer{
+    display: flex;
+    background-color: rgb(243, 222, 184);
+    padding: 3px;
+    justify-content: center;
+}
+
 
 body{
     background-color: whitesmoke;

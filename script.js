@@ -8,3 +8,5 @@ function show(){
         document.querySelector("#options").style.display = "none";
     }
 }
+var x = window.matchMedia("(max-width: 500px)")
+myFunction(x)  

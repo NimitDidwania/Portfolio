@@ -8,9 +8,10 @@ function show(){
         document.querySelector("#options").style.display = "none";
     }
 }
-var menu = document.getElementById("menu").style.display;
+var width = Math. max(window. innerWidth);
+console.log(width);
 function hide(){
-if(1){
+if(width <= 500){
     console.log("THIS is->");
     console.log(menu);
     console.log("<-");

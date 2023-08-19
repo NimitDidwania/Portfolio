@@ -37,7 +37,7 @@ body{
     width: 100%;
     padding: 10px;
     position: fixed;
-    z-index: 2;
+    z-index: -1;
 }
 #options  a{
     text-decoration: none;
@@ -64,21 +64,14 @@ body{
     margin-top: 2px;
     margin-bottom: 2px;
 }
-#above-image{
-     height: 40vh;
-    width: 100%; 
-    background-color: #F8EFD6;
-}
+
 #pic{
-    height: 22vh;
-    width: 22vh;
     position: relative;
-    top: -11vh;
     display: block;
     margin: auto;
-    border-radius: 99px;
-    /* box-shadow: 10px 10px 10px lightcyan; */
+    border-radius: 200px;
     z-index: 1;
+    /* background-image: url(Images/background.jpg); */
 }
 .center{
     display: block;
@@ -91,15 +84,17 @@ body{
     width: 64px;
     margin: auto;
     margin-top: 4px;
-    
+}
+.block
+{
+    position: relative;
+    top: -63px;
+    z-index: -2;
 }
 .heading{
     text-align: center;
     padding: 3vh;
     color: black;
-    /* border-bottom: 2px solid orange; */
-    /* border-top: 2px solid green; */ 
-    /* background-color: ; */
 }
 .achDes{
     text-align: center;
@@ -108,7 +103,6 @@ body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* background-color:#F6EBD7; */
     flex-wrap: wrap;
 }
 .box{
@@ -133,9 +127,6 @@ body{
     
     #navbar{
         flex-direction: column;
-        /* padding-left: 0px;
-        padding-bottom: 0px;
-        padding-right: 0px; */
     }
     #navbar ul li{
         display: block;
@@ -159,8 +150,6 @@ body{
     }
     .box{
         width: 70vw;
-        /* margin: auto; */
-        
         margin-bottom: 4vh;
         margin-top: 4vh;
     }

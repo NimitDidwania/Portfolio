@@ -1,105 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png?">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png?">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png?">
-<link rel="manifest" href="/favicon_io/site.webmanifest?">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png?">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png?">
+    <link rel="manifest" href="/favicon_io/site.webmanifest?">
     <link rel="stylesheet" href="style.css">
     <title>Nimit D.</title>
 </head>
+
 <body>
-    <div id = "navbar">
-        <div id = "logo">
+    <div id="navbar">
+        <div id="logo">
             <div id="nd">nd<strong>.</strong></div>
-            NIMIT DIDWANIA</div>
-        <ul  id = "options">
+            NIMIT DIDWANIA
+        </div>
+        <ul id="options">
             <li onclick="hide()"><a class="menuItems" href="#achievements">Achievements</a> </li>
             <li onclick="hide()"><a class="menuItems" href="#skills">Skills</a></li>
             <li onclick="hide()"><a class="menuItems" href="#experience">Experience</a></li>
-            <li onclick="hide()"><a class="menuItems" href="https://drive.google.com/file/d/1r1D_HKxu2cM5WSqNP8DNIGQ8DQGeBwF1/view?usp=sharing">Resume</a></li>
-            
+            <li onclick="hide()"><a class="menuItems"
+                    href="https://drive.google.com/file/d/1r1D_HKxu2cM5WSqNP8DNIGQ8DQGeBwF1/view?usp=sharing">Resume</a>
+            </li>
+
         </ul>
-        <div id = "menu" onclick="show()">
-            <div class = "line"></div>
-            <div class = "line"></div>
-            <div class = "line"></div>
+        <div id="menu" onclick="show()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </div>
-    <div id = "above-image">
-        
-    </div>
-    <img src="nimit.jpg" alt="" id = "pic">
-    <div id = "achievements">
-        <h1 class = "heading">Achievements</h3>
-        <div class = "container">
-        <div class = "box">
-            
-            <img src="ccTrophy.png" alt="" id = "ccImg">
-            <h4 style="text-align:center"> 4-star, Codechef (Ex-5 Star)</h4>
-            <p class="achDes"> 4 star rated on Codechef. The Codechef recently changed its rating policy, earlier was 5 star coder with maximum rating of 2058.</p>
-        
-        </div>
-        <div class = "box">
-            <img src="cftrophy.png" alt="" id = "ccImg">
-            <h4 style="text-align:center"> Pupil, Codeforces</h4>
-            <p class="achDes">Pupil on Codeforces.</p>
-        </div>
-        <div class = "box">
-            <img src="knight (2).png" alt="" id = "ccImg">
-            <h4 style="text-align:center"> Knight, Leetcode</h4>
-            <p class="achDes"> Knight on Leetcode, with 1900+ maximum rating and solved more than 700 problems solved.</p>
-        </div>
-    </div>
-    <div id = "skills">
-        <h1 class = "heading">Skills</h3>
-        <div class = "container">
-        <div class = "box">
-            
-            <img src="webDevIcon.png" alt="" id = "ccImg">
-            <h4 style="text-align:center">Full Stack Web Development</h4>
-            <p class="achDes">Full stack web development with MERN stack. The relevant skills are HTML, CSS, JavaScript, Node JS, Express JS, Mongo DB</p>
-        
-        </div>
-        <div class = "box">
-            <img src="psIcon.png" alt="" id = "ccImg">
-            <h4 style="text-align:center">Problem solving</h4>
-            <p class="achDes"> Solved more than <strong>2000</strong> Data structures and algorithms problems across platforms. With the decent rating on multiple coding platforms.</p>
-        </div>
-        <div class = "box">
-            <img src="teacherIcon.png" alt="" id = "ccImg">
-            <h4 style="text-align:center">Teaching/Coaching</h4>
-            <p class="achDes">Taught more than <strong>50</strong> students the concepts of C++, Data structures and algorithms, current coaching and taking mock interviews of students to brush their DSA and C++ skills.</p>
+    <!-- Achievements !-->
+    <img src="Images/cartoonChar.svg" alt="" id="pic">
+    <div class="block">
+        <h1 class="heading">Achievements</h3>
+        <div class="container">
+            <div class="box">
+
+                <img src="Images/ccTrophy.png" alt="" id="ccImg">
+                <h4 style="text-align:center"> 4-star, Codechef (Ex-5 Star)</h4>
+                <p class="achDes"> 4 star rated on Codechef. The Codechef recently changed its rating policy,
+                    earlier was 5 star coder with maximum rating of 2058.</p>
+
+            </div>
+            <div class="box">
+                <img src="Images/cftrophy.png" alt="" id="ccImg">
+                <h4 style="text-align:center"> Pupil, Codeforces</h4>
+                <p class="achDes">Pupil on Codeforces.</p>
+            </div>
+            <div class="box">
+                <img src="Images/knight (2).png" alt="" id="ccImg">
+                <h4 style="text-align:center"> Knight, Leetcode</h4>
+                <p class="achDes"> Knight on Leetcode, with 1900+ maximum rating and solved more than 700 problems
+                    solved.</p>
+            </div>
         </div>
     </div>
-    <div id = "experience">
-        <h1 class = "heading">Experience</h3>
-        <div class = "container">
-            <div class = "box">
-            <img src="coach.png" alt="" class = "center">
-            <h4 style="text-align:center"> DS Coach</h4>
-            <p class="achDes"> Review codes and take mock interview of students, to help them prepare for interviews.</p>
-        </div>
-        <div class = "box">
-            <img src="courseInstructor.png" alt="" class = "center">
-            <h4 style="text-align: center;">Course Instructor</h4>
-            <p class="achDes"> Taught 50+ students in a paid course of C++ and DSA.</p>
-        
-        </div>
-        
-        <div class = "box">
-            <img src="techWriter.png" alt="" class = "center">
-            <h4 style="text-align: center;" >Techical Content Writer</h4>
-            <p class="achDes"> Writing technical content on the topics like C++ and DSA.</p>
-        </div>
+    <!--Skills !-->
+    <div class = "block">
+        <h1 class="heading">Skills</h3>
+            <div class="container">
+                <div class="box">
+
+                    <img src="Images/webDevIcon.png" alt="" id="ccImg">
+                    <h4 style="text-align:center">Full Stack Web Development</h4>
+                    <p class="achDes">Full stack web development with MERN stack. The relevant skills are HTML,
+                        CSS, JavaScript, Node JS, Express JS, Mongo DB</p>
+
+                </div>
+                <div class="box">
+                    <img src="Images/psIcon.png" alt="" id="ccImg">
+                    <h4 style="text-align:center">Problem solving</h4>
+                    <p class="achDes"> Solved more than <strong>2000</strong> Data structures and algorithms
+                        problems across platforms. With the decent rating on multiple coding platforms.</p>
+                </div>
+                <div class="box">
+                    <img src="Images/teacherIcon.png" alt="" id="ccImg">
+                    <h4 style="text-align:center">Teaching/Coaching</h4>
+                    <p class="achDes">Taught more than <strong>50</strong> students the concepts of C++, Data
+                        structures and algorithms, current coaching and taking mock interviews of students to
+                        brush their DSA and C++ skills.</p>
+                </div>
+            </div>
     </div>
+    <!--Experience !-->
+    <div class = "block">
+        <h1 class="heading">Experience</h3>
+            <div class="container">
+                <div class="box">
+                    <img src="Images/coach.png" alt="" class="center">
+                    <h4 style="text-align:center"> DS Coach</h4>
+                    <p class="achDes"> Review codes and take mock interview of students, to help them
+                        prepare for interviews.</p>
+                </div>
+                <div class="box">
+                    <img src="Images/courseInstructor.png" alt="" class="center">
+                    <h4 style="text-align: center;">Course Instructor</h4>
+                    <p class="achDes"> Taught 50+ students in a paid course of C++ and DSA.</p>
+
+                </div>
+
+                <div class="box">
+                    <img src="Images/techWriter.png" alt="" class="center">
+                    <h4 style="text-align: center;">Techical Content Writer</h4>
+                    <p class="achDes"> Writing technical content on the topics like C++ and DSA.</p>
+                </div>
+            </div>
     </div>
-    <div id = "footer">
+    <div id="footer">
         <p>Created by- Nimit Didwania</p>
     </div>
-        <script src = "script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
